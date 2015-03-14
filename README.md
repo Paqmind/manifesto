@@ -42,6 +42,19 @@
 ### DSL is Evil
 * https://twitter.com/avibryant/status/396771749502529536
 
+## Thesises
+* Web apps are going to dominate. Browser is a new OS.
+* JavaScript is already a lingua franka and will continue to spread and mature.
+* Async programming is going to dominate web.
+* Concurrency is the question. Threads / Processes -> Async / Green Threads
+
+### Chain of events
+Threads. Can't scale them! &rarr; <br/>
+Event Loop / Callbacks. Can't compose them! &rarr; <br/>
+Promises. So ugly! &rarr; <br/> 
+Async-Await. Still can't compose temporal tasks! &rarr; <br/>
+RxStreams ???
+
 ---
 Additional Links (TODO)
 * 12 factor web apps: http://12factor.net/
