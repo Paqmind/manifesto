@@ -46,9 +46,9 @@
 * Web apps are going to dominate. Browser is a new OS.
 * JavaScript is already a lingua franka and will continue to spread and mature.
 * Async programming is going to dominate web.
-* Concurrency is the question. Threads / Processes -> Async / Green Threads
+* Concurrency is the question. Threads / Processes &rarr; Async / Green Threads
 
-### Chain of events
+### Sequence of events
 Threads. Can't scale them! &rarr; <br/>
 Event Loop / Callbacks. Can't compose them! &rarr; <br/>
 Promises. So ugly! &rarr; <br/> 
