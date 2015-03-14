@@ -47,3 +47,4 @@ Additional Links (TODO)
 * 12 factor web apps: http://12factor.net/
 * Isomorphic: https://news.ycombinator.com/item?id=9019950
 * First class: https://twitter.com/dan_abramov/status/559974122072317953
+* Simplicity matters (by Rich Hickey): https://www.youtube.com/watch?v=rI8tNMsozo0
