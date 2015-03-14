@@ -1,0 +1,2 @@
+# manifesto
+Perfect webapp manifesto
