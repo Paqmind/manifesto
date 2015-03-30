@@ -89,7 +89,7 @@ Critical to apps. Agnostic to libs.
 #### Unsyncs
 Cricital to both apps and libs as may lead to broken commits.
 (*) – unsyncs between tested and installed dependency version may be
-prevented by strict version pinning.
+prevented to some degree by strict version pinning (deps of deps may be impossible to lock, [reference](https://github.com/bower/bower/pull/1592), TODO: describe NPM & Bower current state of this)
 
 #### Tags versions
 Medium importance to both apps and libs.
