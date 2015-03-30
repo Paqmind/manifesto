@@ -37,7 +37,7 @@ Fetches and builds are performed as part of install / update process.
   <th>Big commits</th><td>yes</td><td>yes</td><td>no (+)</td>
 </tr>
 <tr>
-  <th>Big repo</th><td>yes/td><td>yes</td><td>no (+)</td>
+  <th>Big repo</th><td>yes</td><td>yes</td><td>no (+)</td>
 </tr>
 </table>
 
