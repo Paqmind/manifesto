@@ -118,6 +118,7 @@ Cricital to both apps and libs. Broken commits may cause multiple problems.
 prevented to some degree by strict version pinning. Question about deps of deps remains.
 Solution to is called "shrinkwrapping". Refer to corresponding tool suppport:
 [Bower](https://github.com/bower/bower/pull/1592), [NPM](https://docs.npmjs.com/cli/shrinkwrap)
+But even this don't give 100% guarantee when deps include binary stuff.
 
 #### Tags versions
 Medium importance to both apps and libs.
