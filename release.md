@@ -2,15 +2,17 @@
 
 ## Build folders and VCS
 
-### Full
+### Options
+
+#### Full
 Builds are under VCS.
 Every commit must include corresponding build changes (if there are).
 
-### Partial 
+#### Partial 
 Builds are under VCS.
 Every release must include corresponding build changes.
 
-### Pure 
+#### Pure 
 Builds are out of VCS.
 Fetches and builds are performed as part of install / update process.
 
@@ -68,3 +70,18 @@ Fetches and builds are performed as part of install / update process.
 </tr>
 </table>
 
+### Aspects
+
+All projects may be roughly divided into apps and libs.
+
+#### Deployment
+Critical to apps. Agnostic to libs.
+
+#### Unsync: broken commits
+Cricital to both apps and libs
+
+#### Tags versions
+Medium importance to both apps and libs.
+
+#### History
+???
