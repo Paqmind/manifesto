@@ -30,6 +30,14 @@ Fetches and builds are performed as part of install / update process.
 <tr>
   <th>Is fast</th><td>yes (+)</td><td>yes (+)</td><td>no</td>
 </tr>  
+
+<tr>
+  <th>&nbsp;</th><th colspan="3">Unsync: broken commits</th>
+</tr>  
+<tr>
+  <th>Probability</th><td>high (-)</td><td>low</td><td>no (+)</td>
+</tr>  
+
 <tr>
   <th>&nbsp;</th><th colspan="3">History</th>
 </tr> 
