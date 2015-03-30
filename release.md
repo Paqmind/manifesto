@@ -2,6 +2,10 @@
 
 ## Build folders and VCS
 
+At least 3 well-defined approaches to this may be established. All have their own benefits
+and drawbacks and require entirely mutuall exclusive decisions in a lot of cases.
+So it's better to completely understand consequences of the choice for your team.
+
 ### Options
 
 #### Full
