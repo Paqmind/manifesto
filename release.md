@@ -65,8 +65,8 @@ Fetches and builds are performed as part of install / update process.
 <tr>
   <td>Untested dependency</td>
   <td>impossible (+)</td>
-  <td>possible on staging</td>
-  <td>possible on production (-)</td>
+  <td>staging</td>
+  <td>production (-)</td>
 </tr>
 <tr>
   <td>Incompatible binaries</td>
