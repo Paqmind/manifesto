@@ -128,5 +128,5 @@ But even this don't give 100% guarantee when deps include binary stuff.
 Medium importance to both apps and libs.
 
 #### History
-Bigger history increases disk and network traffic usage. Probably is more critical to apps
+Bigger history increases disk and traffic usage. Probably is more critical to apps
 considering their commit number is usually bigger in order(s) of magnitude.
