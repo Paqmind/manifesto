@@ -20,8 +20,22 @@ Fetches and builds are performed as part of install / update process.
 <tr>
   <th>Aspect</th><th><h4>Full</h4></th><th><h4>Partial</h4></th><th><h4>Pure</h4></th>
 </tr>
+
+<tr>
+  <th>&nbsp;</th><th colspan="3">Development</th>
+</tr>  
+<tr>
+  <td>Is complicated (<code>$ git add -p</code>)</td><td>yes (-)</td><td>kinda</td><td>no (+)</td>
+</tr>  
+<tr>
+  <td colspan="4"></td>
+</tr>  
+
 <tr>
   <th>&nbsp;</th><th colspan="3">Deployment</th>
+</tr>  
+<tr>
+  <td>Is complicated</td><td>no (+)</td><td>no (+)</td><td>yes</td>
 </tr>  
 <tr>
   <td>May break by network disconnect</td><td>no (+)</td><td>no (+)</td><td>yes</td>
@@ -88,6 +102,9 @@ Fetches and builds are performed as part of install / update process.
 ### Aspects
 
 All projects may be roughly divided into apps and libs.
+
+#### Development
+Critical to both apps and libs.
 
 #### Deployment
 Critical to apps. Agnostic to libs.
