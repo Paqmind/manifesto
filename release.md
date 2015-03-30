@@ -95,4 +95,5 @@ prevented by strict version pinning.
 Medium importance to both apps and libs.
 
 #### History
-???
+Bigger history increases disk and network traffic usage. Probably is more critical to apps
+considering their commit number is usually bigger in order(s) of magnitude.
