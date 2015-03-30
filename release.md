@@ -54,7 +54,7 @@ Fetches and builds are performed as part of install / update process.
 </tr>  
 
 <tr>
-  <th>&nbsp;</th><th colspan="3">Broken commits</th>
+  <th>&nbsp;</th><th colspan="3">Commit quality</th>
 </tr>  
 <tr>
   <td>Sources and dists are unsynced</td>
@@ -112,8 +112,8 @@ Critical to both apps and libs.
 #### Deployment
 Critical to apps. Agnostic to libs.
 
-#### Broken commits
-Cricital to both apps and libs.
+#### Commit quality.
+Cricital to both apps and libs. Broken commits may cause multiple problems.
 (*) – unsyncs between tested and installed dependency version may be
 prevented to some degree by strict version pinning (deps of deps may be [impossible to lock](https://github.com/bower/bower/pull/1592), TODO: describe NPM & Bower current state of this)
 
