@@ -115,7 +115,9 @@ Critical to apps. Agnostic to libs.
 #### Commit quality.
 Cricital to both apps and libs. Broken commits may cause multiple problems.
 (*) – unsyncs between tested and installed dependency version may be
-prevented to some degree by strict version pinning (deps of deps may be [impossible to lock](https://github.com/bower/bower/pull/1592), TODO: describe NPM & Bower current state of this)
+prevented to some degree by strict version pinning. Question about deps of deps remains.
+Solution to is called "shrinkwrapping". Refer to corresponding tool suppport:
+[Bower](https://github.com/bower/bower/pull/1592), [NPM](https://docs.npmjs.com/cli/shrinkwrap)
 
 #### Tags versions
 Medium importance to both apps and libs.
