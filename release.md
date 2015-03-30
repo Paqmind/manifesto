@@ -63,10 +63,10 @@ Fetches and builds are performed as part of install / update process.
   <td>zero probability (+)</td>
 </tr>
 <tr>
-  <td>Installation of untested dependency</td>
+  <td>Untested dependency</td>
   <td>impossible (+)</td>
   <td>possible on staging</td>
-  <td>possible on production(-)</td>
+  <td>possible on production (-)</td>
 </tr>
 <tr>
   <td>Incompatible binaries</td>
