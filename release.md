@@ -40,16 +40,22 @@ Fetches and builds are performed as part of install / update process.
   <th>Aspect</th><th colspan="3">Broken commits</th>
 </tr>  
 <tr>
-  <th>Unsync between sources and dists</th>
+  <th>Unsyncs between sources and dists</th>
   <td>high probability (-)</td>
   <td>low probability</td>
   <td>zero probability (+)</td>
 </tr>
 <tr>
-  <th>Unsync between tested and installed dependency version</th>
+  <th>Unsynsc between tested and installed dependency version</th>
   <td>impossible (+)</td>
   <td>impossible (+)</td>
   <td>possible (*)</td>
+</tr>
+<tr>
+  <th>Unsyncs between binaris compiled under different OS</th>
+  <td>possible</td>
+  <td>possible</td>
+  <td>impossible (+)</td>
 </tr>
 <tr>
   <td colspan="4"></td>
