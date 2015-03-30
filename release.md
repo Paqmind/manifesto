@@ -19,13 +19,16 @@ Fetches and builds are performed as part of install / update process.
   <th>&nbsp;</th><th><h4>Full</h4></th><th><h4>Partial</h4></th><th><h4>Pure</h4></th>
 </tr>
 <tr>
-  <th>Deployment depends on network connection</th><td>no (+)</td><td>no (+)</td><td>yes</td>
+  <th colspan="4">Deployment</th>
 </tr>  
 <tr>
-  <th>Deployment depends on 3-rd party package repos existance</th><td>no (+)</td><td>no (+)</td><td>yes</td>
+  <th>may break by network disconnect</th><td>no (+)</td><td>no (+)</td><td>yes</td>
 </tr>  
 <tr>
-  <th>Fast deployment</th><td>yes (+)</td><td>yes (+)</td><td>no</td>
+  <th>may break by dep. repo removal</th><td>no (+)</td><td>no (+)</td><td>yes</td>
+</tr>  
+<tr>
+  <th>is fast</th><td>yes (+)</td><td>yes (+)</td><td>no</td>
 </tr>  
 </table>
 
