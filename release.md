@@ -21,5 +21,8 @@ Fetches and builds are performed as part of install / update process.
 <tr>
   <th>Deployment depends on network connection</th><td>no (+)</td><td>no (+)</td><td>yes</td>
 </tr>  
+<tr>
+  <th>Deployment depends on 3-rd party package repos existance</th><td>no (+)</td><td>no (+)</td><td>yes</td>
+</tr>  
 </table>
 
