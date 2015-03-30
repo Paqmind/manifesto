@@ -88,8 +88,8 @@ Critical to apps. Agnostic to libs.
 
 #### Unsyncs
 Cricital to both apps and libs as may lead to broken commits.
-(*) – Possibility of unsync between tested and installed dependency version may be
-removed by strict version pinning.
+(*) – unsyncs between tested and installed dependency version may be
+prevented by strict version pinning.
 
 #### Tags versions
 Medium importance to both apps and libs.
