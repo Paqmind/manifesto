@@ -37,10 +37,19 @@ Fetches and builds are performed as part of install / update process.
 </tr>  
 
 <tr>
-  <th>Aspect</th><th colspan="3">Unsync: broken commits</th>
+  <th>Aspect</th><th colspan="3">Unsyncs</th>
 </tr>  
 <tr>
-  <th>Probability</th><td>high (-)</td><td>low</td><td>no (+)</td>
+  <th>Between sources and dists</th>
+  <td>high probability (-)</td>
+  <td>low probability</td>
+  <td>zero probability (+)</td>
+</tr>
+<tr>
+  <th>Between tested and installed dependency version</th>
+  <td>impossible (+)</td>
+  <td>impossible (+)</td>
+  <td>possible</td>
 </tr>
 <tr>
   <td colspan="4"></td>
@@ -77,8 +86,8 @@ All projects may be roughly divided into apps and libs.
 #### Deployment
 Critical to apps. Agnostic to libs.
 
-#### Unsync: broken commits
-Cricital to both apps and libs
+#### Unsyncs
+Cricital to both apps and libs as may lead to broken commits.
 
 #### Tags versions
 Medium importance to both apps and libs.
