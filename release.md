@@ -24,13 +24,13 @@ Fetches and builds are performed as part of install / update process.
   <th>Aspect</th><th colspan="3">Deployment</th>
 </tr>  
 <tr>
-  <th>May break by network disconnect</th><td>no (+)</td><td>no (+)</td><td>yes</td>
+  <td>May break by network disconnect</td><td>no (+)</td><td>no (+)</td><td>yes</td>
 </tr>  
 <tr>
-  <th>May break by dep. repo removal</th><td>no (+)</td><td>no (+)</td><td>yes</td>
+  <td>May break by dep. repo removal</td><td>no (+)</td><td>no (+)</td><td>yes</td>
 </tr>  
 <tr>
-  <th>Is fast</th><td>yes (+)</td><td>yes (+)</td><td>no</td>
+  <td>Is fast</td><td>yes (+)</td><td>yes (+)</td><td>no</td>
 </tr>  
 <tr>
   <td colspan="4"></td>
@@ -40,19 +40,19 @@ Fetches and builds are performed as part of install / update process.
   <th>Aspect</th><th colspan="3">Broken commits</th>
 </tr>  
 <tr>
-  <th>Unsyncs between sources and dists</th>
+  <td>Unsyncs between sources and dists</td>
   <td>high probability (-)</td>
   <td>low probability</td>
   <td>zero probability (+)</td>
 </tr>
 <tr>
-  <th>Unsynsc between tested and installed dependency version</th>
+  <td>Unsynsc between tested and installed dependency version</td>
   <td>impossible (+)</td>
   <td>impossible (+)</td>
   <td>possible (*)</td>
 </tr>
 <tr>
-  <th>Unsyncs between binaris compiled under different OS</th>
+  <td>Incompatible binaries</td>
   <td>possible</td>
   <td>possible</td>
   <td>impossible (+)</td>
@@ -65,7 +65,7 @@ Fetches and builds are performed as part of install / update process.
   <th>Aspect</th><th colspan="3">Tags / versions</th>
 </tr>  
 <tr>
-  <th>Are locked</th><td>no (+)</td><td>yes</td><td>no (+)</td>
+  <td>Are locked</td><td>no (+)</td><td>yes</td><td>no (+)</td>
 </tr>
 <tr>
   <td colspan="4"></td>
@@ -75,10 +75,10 @@ Fetches and builds are performed as part of install / update process.
   <th>Aspect</th><th colspan="3">History</th>
 </tr> 
 <tr>
-  <th>Big commits</th><td>yes</td><td>yes</td><td>no (+)</td>
+  <td>Big commits</td><td>yes</td><td>yes</td><td>no (+)</td>
 </tr>
 <tr>
-  <th>Big repo</th><td>yes</td><td>yes</td><td>no (+)</td>
+  <td>Big repo</td><td>yes</td><td>yes</td><td>no (+)</td>
 </tr>
 <tr>
   <td colspan="4"></td>
