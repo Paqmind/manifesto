@@ -49,7 +49,7 @@ Fetches and builds are performed as part of install / update process.
   <th>Between tested and installed dependency version</th>
   <td>impossible (+)</td>
   <td>impossible (+)</td>
-  <td>possible</td>
+  <td>possible (*)</td>
 </tr>
 <tr>
   <td colspan="4"></td>
@@ -88,6 +88,8 @@ Critical to apps. Agnostic to libs.
 
 #### Unsyncs
 Cricital to both apps and libs as may lead to broken commits.
+Possibility of unsync between tested and installed dependency version may be
+removed by strict version pinning.
 
 #### Tags versions
 Medium importance to both apps and libs.
