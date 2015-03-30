@@ -25,7 +25,8 @@ Fetches and builds are performed as part of install / update process.
   <th>&nbsp;</th><th colspan="3">Development</th>
 </tr>  
 <tr>
-  <td>Is complicated (<code>$ git add -p</code>)</td><td>yes (-)</td><td>kinda</td><td>no (+)</td>
+  <td><code>$ git add -p</code> is complicated</td><td>yes (-)</td><td>kinda</td><td>no (+)</td>
+  <td>Every member must have dev. tools installed</td><td>no (+)</td><td>maybe</td><td>yes (-)</td>
 </tr>  
 <tr>
   <td colspan="4"></td>
