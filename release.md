@@ -18,10 +18,10 @@ Fetches and builds are performed as part of install / update process.
 
 <table>
 <tr>
-  <th>&nbsp;</th><th><h4>Full</h4></th><th><h4>Partial</h4></th><th><h4>Pure</h4></th>
+  <th>Aspect</th><th><h4>Full</h4></th><th><h4>Partial</h4></th><th><h4>Pure</h4></th>
 </tr>
 <tr>
-  <th>Aspect</th><th colspan="3">Deployment</th>
+  <th>&nbsp;</th><th colspan="3">Deployment</th>
 </tr>  
 <tr>
   <td>May break by network disconnect</td><td>no (+)</td><td>no (+)</td><td>yes</td>
@@ -37,7 +37,7 @@ Fetches and builds are performed as part of install / update process.
 </tr>  
 
 <tr>
-  <th>Aspect</th><th colspan="3">Broken commits</th>
+  <th>&nbsp;</th><th colspan="3">Broken commits</th>
 </tr>  
 <tr>
   <td>Sources and dists are unsynced</td>
@@ -62,7 +62,7 @@ Fetches and builds are performed as part of install / update process.
 </tr>
 
 <tr>
-  <th>Aspect</th><th colspan="3">Tags / versions</th>
+  <th>&nbsp;</th><th colspan="3">Tags / versions</th>
 </tr>  
 <tr>
   <td>Are locked</td><td>no (+)</td><td>yes</td><td>no (+)</td>
@@ -72,7 +72,7 @@ Fetches and builds are performed as part of install / update process.
 </tr>
 
 <tr>
-  <th>Aspect</th><th colspan="3">History</th>
+  <th>&nbsp;</th><th colspan="3">History</th>
 </tr> 
 <tr>
   <td>Big commits</td><td>yes</td><td>yes</td><td>no (+)</td>
