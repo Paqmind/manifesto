@@ -37,16 +37,16 @@ Fetches and builds are performed as part of install / update process.
 </tr>  
 
 <tr>
-  <th>Aspect</th><th colspan="3">Unsyncs</th>
+  <th>Aspect</th><th colspan="3">Broken commits</th>
 </tr>  
 <tr>
-  <th>Between sources and dists</th>
+  <th>Unsync between sources and dists</th>
   <td>high probability (-)</td>
   <td>low probability</td>
   <td>zero probability (+)</td>
 </tr>
 <tr>
-  <th>Between tested and installed dependency version</th>
+  <th>Unsync between tested and installed dependency version</th>
   <td>impossible (+)</td>
   <td>impossible (+)</td>
   <td>possible (*)</td>
@@ -86,10 +86,10 @@ All projects may be roughly divided into apps and libs.
 #### Deployment
 Critical to apps. Agnostic to libs.
 
-#### Unsyncs
-Cricital to both apps and libs as may lead to broken commits.
+#### Broken commits
+Cricital to both apps and libs.
 (*) – unsyncs between tested and installed dependency version may be
-prevented to some degree by strict version pinning (deps of deps may be impossible to lock, [reference](https://github.com/bower/bower/pull/1592), TODO: describe NPM & Bower current state of this)
+prevented to some degree by strict version pinning (deps of deps may be [impossible to lock](https://github.com/bower/bower/pull/1592), TODO: describe NPM & Bower current state of this)
 
 #### Tags versions
 Medium importance to both apps and libs.
